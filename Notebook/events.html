@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Люди</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div id="wrap">
+  <div id="top">
+    <h1 id="sitename"><b>Успішний Записник</b></h1>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="notes.html"><span>Нотатки</span></a></li>
+      <li><a href="people.html"><span>Люди</span></a></li>
+      <li class="active"><a href="events.html"><span>Події</span></a></li>
+    </ul>
+  </div>
+  <div id="contentwrap">
+    <div id="mainpage" class="normalpage">
+      <div id="left" class="widepage">
+	  <h2>Мої події</h2>
+        <div class="post">
+			<div id="wrapper">
+						
+				<table id="contactTable">
+				<thead>
+				  <tr>
+					<th>Подія</th>
+					<th>Опис</th>
+					<th>Дата</th>
+					<th></th>
+				  </tr>
+				</thead>
+				<tbody id="tableBody">
+				  <!-- Рядки таблиці будуть додаватись тут з JavaScript -->
+				</tbody>
+			  </table>
+
+			  <button class="add-row-btn" onclick="addRow()">Додати рядок</button>
+			</div>
+		<script src="eventsscript.js"></script>
+  </div>
+<!-- END PAGE SOURCE -->
+</body>
+</html>
